@@ -34,6 +34,7 @@ main {
   box-shadow: 0.5rem 0.5rem 0 0 rgb(0, 0, 0);
   padding: 1.5rem;
   max-width: 24rem;
+  border: 1px solid var(--blackColor);
 
   display: flex;
   gap: 1.5rem;
@@ -60,7 +61,7 @@ main {
 }
 
 .card__preview h2 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
