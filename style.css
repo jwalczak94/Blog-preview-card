@@ -60,15 +60,16 @@ main {
   padding: 0.25rem 0.75rem;
 }
 
-.card__preview h2 {
+.card__preview h2 a {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 800;
+  text-decoration: none;
+  color: var(--blackColor);
 }
 
-.card__preview p {
+.text {
   color: var(--greyColor);
   font-weight: 400;
-  font-size: 1rem;
 }
 
 .card__footer {
